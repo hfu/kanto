@@ -1,0 +1,16 @@
+{
+}
+
+localhost:8086
+
+root * ./docs
+file_server
+
+handle_path /martin/* {
+  reverse_proxy localhost:3000
+}
+
+handle /* {
+  file_server
+}
+
