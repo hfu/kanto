@@ -1,0 +1,4 @@
+base_path: /martin
+pmtiles:
+  sources:
+    kanto: cache/kanto_rapid.pmtiles

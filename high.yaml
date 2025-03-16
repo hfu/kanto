@@ -1,0 +1,4 @@
+base_path: /martin
+pmtiles:
+  sources:
+    kanto: https://data.source.coop/wata909/historical-topomaps-jp/kanto_rapid.pmtiles
